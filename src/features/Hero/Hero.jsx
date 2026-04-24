@@ -10,7 +10,7 @@ const Hero = () => {
         
         {/* Columna Texto */}
         <div className="space-y-8 animate-fade-in">
-          <div className="inline-block px-5 py-2 rounded-full bg-gradient-to-r from-leaf-green/20 to-leaf-green/10 text-dark-olive text-xs font-bold uppercase tracking-widest border border-leaf-green/20 hover:border-leaf-green/50 transition-all">
+          <div className="inline-block px-5 py-2 rounded-full bg-gradient-to-r from-leaf-green/20 to-leaf-green/10 text-dark-olive text-xs font-bold tracking-widest border border-leaf-green/20 hover:border-leaf-green/50 transition-all">
             #ConcienciaAmbiental
           </div>
           
