@@ -25,8 +25,8 @@ const Services = () => {
 
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-black text-dark-olive mb-6 uppercase tracking-tight">Nuestros <span className="bg-gradient-to-r from-leaf-green to-carrot-orange bg-clip-text text-transparent">Servicios</span></h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-leaf-green to-carrot-orange mx-auto rounded-full"></div>
+          <h2 className="text-5xl md:text-6xl font-black text-dark-olive mb-6 uppercase tracking-tight">Nuestros <span className="bg-gradient-to-r from-leaf-green to-sage-green bg-clip-text text-transparent">Servicios</span></h2>
+          <div className="h-1 w-24 bg-gradient-to-r from-leaf-green to-sage-green mx-auto rounded-full"></div>
           <p className="text-dark-olive/60 mt-6 text-lg tracking-wide">Acompañamiento integral para tu transformación agrícola</p>
         </div>
 
