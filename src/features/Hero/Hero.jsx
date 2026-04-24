@@ -1,6 +1,7 @@
+import logo from '../../assets/logo.png';
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-screen bg-[#F5F0E1] flex items-center px-6 overflow-hidden">
+    <section id='inicio' className="relative w-full min-h-screen bg-[#F5F0E1] flex items-center px-6 overflow-hidden">
       <div className="container mx-auto grid lg:grid-cols-2 gap-10 items-center">
         
         {/* Columna Texto */}
@@ -22,10 +23,6 @@ const Hero = () => {
             <button className="bg-[#485342] text-[#F5F0E1] px-10 py-5 rounded-2xl font-extrabold hover:bg-[#94B086] transition-all shadow-xl">
               Empezar ahora
             </button>
-            <button className="flex items-center gap-3 text-[#485342] font-bold py-5 px-4">
-              <span className="w-12 h-12 flex items-center justify-center border-2 border-[#485342] rounded-full">▶</span>
-              Ver proceso
-            </button>
           </div>
         </div>
 
@@ -33,13 +30,8 @@ const Hero = () => {
         <div className="relative h-[500px] md:h-[650px] w-full">
           <div className="absolute inset-0 bg-[#485342] rounded-[3rem] shadow-2xl rotate-2 flex items-center justify-center overflow-hidden">
              {/* Simulación de imagen de hortaliza */}
-             <div className="text-9xl opacity-20">🌿</div>
+             <div className="text-9xl"><img src={logo} alt="Hortaliza" /></div>
              
-             {/* Badge flotante que sale en las fotos pro */}
-             <div className="absolute bottom-10 left-10 bg-[#F5F0E1] p-6 rounded-2xl -rotate-6 shadow-xl border border-black/5">
-                <p className="text-[#485342] font-black text-sm uppercase tracking-tighter">Calidad Superior</p>
-                <p className="text-[#D65C4F] font-bold italic">100% Orgánico</p>
-             </div>
           </div>
         </div>
 

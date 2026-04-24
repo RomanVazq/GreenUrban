@@ -33,7 +33,7 @@ const About = () => {
               </p>
             </div>
 
-            {/* Lista de Integrantes del PDF */}
+            {/* Lista de Integrantes */}
             <div className="pt-6">
               <p className="font-bold text-[#485342] mb-4 uppercase text-sm tracking-widest">Equipo Directivo</p>
               <div className="flex flex-wrap gap-3">
