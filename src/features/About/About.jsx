@@ -22,7 +22,7 @@ const About = () => {
           {/* Columna Izquierda: Misión y Visión */}
           <div className="space-y-12">
             <div className="group p-8 bg-white rounded-2xl border-l-4 border-leaf-green shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <h3 className="text-2xl font-bold text-dark-olive mb-4 flex items-center gap-2">🎯 Nuestra Misión</h3>
+              <h3 className="text-2xl font-bold text-dark-olive mb-4 flex items-center gap-2">Nuestra Misión</h3>
               <p className="text-lg text-dark-olive/70 leading-relaxed tracking-wide">
                 Otorgar el mejor servicio y capacitación mediante la creación de hortalizas caseras, 
                 fomentando la autosuficiencia alimentaria y el cuidado del medio ambiente.
@@ -30,7 +30,7 @@ const About = () => {
             </div>
 
             <div className="group p-8 bg-white rounded-2xl border-l-4 border-sage-green shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
-              <h3 className="text-2xl font-bold text-dark-olive mb-4 flex items-center gap-2">🌟 Nuestra Visión</h3>
+              <h3 className="text-2xl font-bold text-dark-olive mb-4 flex items-center gap-2">Nuestra Visión</h3>
               <p className="text-lg text-dark-olive/70 leading-relaxed tracking-wide">
                 Ser una empresa referente en educación para la agricultura urbana, contribuyendo a que 
                 más hogares produzcan parte de sus propios alimentos.
@@ -39,13 +39,24 @@ const About = () => {
 
             {/* Lista de Integrantes */}
             <div className="pt-4">
-              <p className="font-bold text-dark-olive mb-6 uppercase text-sm tracking-widest">👥 Equipo Directivo</p>
-              <div className="flex flex-wrap gap-3">
-                {['Amayia G.', 'Rafael I.', 'Irene C.', 'Karla S.'].map((name) => (
-                  <span key={name} className="px-4 py-3 bg-gradient-to-br from-dark-olive to-dark-olive/90 text-cream rounded-xl text-sm font-bold hover:shadow-lg hover:scale-110 transition-all duration-300 cursor-pointer">
-                    {name}
-                  </span>
-                ))}
+              <p className="font-bold text-dark-olive mb-6 uppercase text-sm tracking-widest">👥 Equipo Ejecutivo</p>
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-gradient-to-br from-dark-olive to-dark-olive/90 text-cream rounded-xl p-4 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <p className="font-bold text-sm">CEO</p>
+                  <p className="text-cream/80 text-xs mt-1">Amayia Granados</p>
+                </div>
+                <div className="bg-gradient-to-br from-dark-olive to-dark-olive/90 text-cream rounded-xl p-4 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <p className="font-bold text-sm">Director Operativo</p>
+                  <p className="text-cream/80 text-xs mt-1">Rafa Izunza</p>
+                </div>
+                <div className="bg-gradient-to-br from-dark-olive to-dark-olive/90 text-cream rounded-xl p-4 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <p className="font-bold text-sm">Directora RH</p>
+                  <p className="text-cream/80 text-xs mt-1">Irene García</p>
+                </div>
+                <div className="bg-gradient-to-br from-dark-olive to-dark-olive/90 text-cream rounded-xl p-4 hover:shadow-lg hover:scale-105 transition-all duration-300">
+                  <p className="font-bold text-sm">Directora Marketing</p>
+                  <p className="text-cream/80 text-xs mt-1">Karla Solís</p>
+                </div>
               </div>
             </div>
           </div>
@@ -56,7 +67,7 @@ const About = () => {
             
             <div className="relative bg-white border-2 border-dark-olive/10 rounded-[2rem] p-10 shadow-2xl hover:shadow-3xl hover:border-leaf-green/30 transition-all duration-500">
               <div className="text-center mb-8">
-                <h3 className="text-2xl font-black text-dark-olive uppercase tracking-tight">📊 Organigrama</h3>
+                <h3 className="text-2xl font-black text-dark-olive uppercase tracking-tight">Organigrama</h3>
                 <p className="text-sm text-dark-olive/60 font-medium mt-1">Green Urban Horticulture Services</p>
                 <div className="h-0.5 w-12 bg-gradient-to-r from-leaf-green to-sage-green mx-auto mt-4 rounded-full"></div>
               </div>
