@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo.jpeg';
 const Hero = () => {
   return (
     <section id='inicio' className="relative w-full min-h-screen bg-gradient-to-br from-cream via-cream to-cream/80 flex items-center px-6 overflow-hidden py-20">
