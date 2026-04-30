@@ -178,3 +178,26 @@ h1, h2, h3, h4, h5, h6 {
 p {
   line-height: 1.6;
 }
+/* Colores de navegación de Swiper */
+:root {
+  --swiper-theme-color: #485342; /* Dark Olive */
+  --swiper-navigation-size: 24px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  background: white;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: #485342 !important;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+
+.swiper-pagination-bullet-active {
+  background: #94B086 !important; /* Leaf Green */
+}

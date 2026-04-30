@@ -5,6 +5,7 @@ import Model from './features/Model/Model';
 import Services from './features/Services/Services';      
 import About from './features/About/About';
 import './index.css';
+import Products from './features/Products/Products';
 function App() {
   return (
     <main className="antialiased min-h-screen bg-cream">
@@ -13,6 +14,7 @@ function App() {
       <Services />
       <Benefits />
       <Model />
+      <Products />
       <About />
       
       <footer className="bg-gradient-to-r from-dark-olive to-dark-olive/95 py-16 text-center border-t border-leaf-green/20">
