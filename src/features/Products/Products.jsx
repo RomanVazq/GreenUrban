@@ -107,7 +107,7 @@ const ProductSlider = () => {
                 </p>
 
                 <button className="mt-6 inline-flex items-center justify-center rounded-full bg-[#485342] px-7 py-3 text-sm font-bold uppercase tracking-[0.14em] text-[#F5F0E1] transition-colors duration-300 hover:bg-[#94B086]">
-                  Consultar
+                  
                 </button>
               </article>
             </SwiperSlide>
