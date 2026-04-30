@@ -12,6 +12,7 @@ const Navbar = () => {
         <a href="#inicio" className="relative hover:text-leaf-green transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:transition-all after:duration-300 hover:after:w-full">Inicio</a>
         <a href="#servicios" className="relative hover:text-leaf-green transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:transition-all after:duration-300 hover:after:w-full">Servicios</a>
         <a href="#nosotros" className="relative hover:text-leaf-green transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:transition-all after:duration-300 hover:after:w-full">Nosotros</a>
+        <a href="#productos" className="relative hover:text-leaf-green transition-colors after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-leaf-green after:transition-all after:duration-300 hover:after:w-full">Productos</a>
       </div>
 
       <button className="bg-dark-olive text-cream px-6 py-2.5 rounded-full text-sm font-bold hover:bg-leaf-green hover:shadow-lg hover:scale-105 transition-all duration-300">

@@ -62,7 +62,6 @@ const ProductSlider = () => {
       <div className="container mx-auto px-6">
         
         <div className="max-w-3xl mb-12">
-          <p className="text-sm font-bold uppercase tracking-widest text-[#94B086] mb-3">Catálogo</p>
           <h2 className="text-5xl font-bold text-[#485342] tracking-tight">
             Nuestros <span className="text-[#94B086] italic font-serif">Productos</span>
           </h2>
